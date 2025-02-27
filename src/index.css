@@ -1,0 +1,41 @@
+body {
+  /* Fundo branco para modo claro */
+  background-color: #ffffff; /* Modo claro: fundo branco */
+  color: black; /* Texto preto no modo claro */
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Remover o gradiente para o modo claro */
+}
+
+body.dark-mode {
+  /* Gradiente para o modo escuro */
+  background: linear-gradient(rgba(16, 25, 38, 0.7), rgba(0, 0, 0, 0.9));
+  background-size: auto 300%;
+  animation: panoramic 600s linear infinite;
+  animation-play-state: running;
+
+  color: white; /* Texto branco no modo escuro */
+}
+
+@keyframes panoramic {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
