@@ -48,6 +48,10 @@ Essas melhorias não apenas tornam a interface mais atrativa, mas também aprimo
 
 ---
 
+## Preview
+
+[![Pré-visualização do Projeto](https://img.youtube.com/vi/bqD836jPMcw/0.jpg)](https://www.youtube.com/watch?v=bqD836jPMcw)
+
 
 ## 🌟 Melhorias Futuras
 
