@@ -63,6 +63,7 @@ Essas melhorias não apenas tornam a interface mais atrativa, mas também aprimo
 - **CSS3** - Estilização responsiva e animações
 - **JavaScript (ES6+)** - Interatividade e manipulação da DOM
 - **Node.js** - API para fornecer dados dinâmicos
+- **React.js** -
 - **FontAwesome** - Ícones personalizados
 
 
